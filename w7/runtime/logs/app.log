@@ -1,0 +1,3322 @@
+2016-07-13 17:50:58 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: name' in E:\hhy\basic\controllers\IndexController.php:22
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(22): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\hhy\\basic\\co...', 22, Array)
+#1 [internal function]: app\controllers\IndexController->actionList()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-13 17:50:58 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50242'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403458.3736
+    'REQUEST_TIME' => 1468403458
+]
+2016-07-13 17:50:58 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 17:50:58 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50242'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403458.3736
+    'REQUEST_TIME' => 1468403458
+]
+2016-07-13 17:51:49 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in E:\hhy\basic\controllers\IndexController.php:22
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(22): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\hhy\\basic\\co...', 22, Array)
+#1 [internal function]: app\controllers\IndexController->actionList()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-13 17:51:49 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50258'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403509.5535
+    'REQUEST_TIME' => 1468403509
+]
+2016-07-13 17:51:49 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 17:51:49 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50258'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403509.5535
+    'REQUEST_TIME' => 1468403509
+]
+2016-07-13 17:52:12 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: session' in E:\hhy\basic\controllers\IndexController.php:23
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(23): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\hhy\\basic\\co...', 23, Array)
+#1 [internal function]: app\controllers\IndexController->actionList()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-13 17:52:12 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50267'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403532.7958
+    'REQUEST_TIME' => 1468403532
+]
+2016-07-13 17:52:12 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 17:52:12 [127.0.0.1][-][rektokrlou8so1f79du42vonk3][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => 'rektokrlou8so1f79du42vonk3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1820'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Flist'
+    'QUERY_STRING' => 'r=index%2Flist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '50267'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=rektokrlou8so1f79du42vonk3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468403532.7958
+    'REQUEST_TIME' => 1468403532
+]
+2016-07-13 18:59:44 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: name' in E:\hhy\basic\views\layouts\left.php:47
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(47): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\hhy\\basic\\vi...', 47, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="con...')
+#5 E:\hhy\basic\controllers\IndexController.php(26): yii\base\Controller->render('list', Array)
+#6 [internal function]: app\controllers\IndexController->actionList()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 18:59:44 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52661'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468407584.4996
+    'REQUEST_TIME' => 1468407584
+]
+2016-07-13 18:59:44 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 18:59:44 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1860'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52661'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468407584.4996
+    'REQUEST_TIME' => 1468407584
+]
+2016-07-13 19:14:42 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\index\list.php:2
+Stack trace:
+#0 E:\hhy\basic\views\index\list.php(2): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 2, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('list', Array, Object(app\controllers\IndexController))
+#5 E:\hhy\basic\controllers\IndexController.php(26): yii\base\Controller->render('list', Array)
+#6 [internal function]: app\controllers\IndexController->actionList()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:14:42 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53842'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408482.559
+    'REQUEST_TIME' => 1468408482
+]
+2016-07-13 19:14:42 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 19:14:42 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53842'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408482.559
+    'REQUEST_TIME' => 1468408482
+]
+2016-07-13 19:16:09 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('\r\n\r\n<div class=...')
+#5 E:\hhy\basic\controllers\IndexController.php(26): yii\base\Controller->render('list', Array)
+#6 [internal function]: app\controllers\IndexController->actionList()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:16:09 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53901'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408569.5319
+    'REQUEST_TIME' => 1468408569
+]
+2016-07-13 19:16:09 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 19:16:09 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53901'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408569.5319
+    'REQUEST_TIME' => 1468408569
+]
+2016-07-13 19:16:35 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\index\list.php:2
+Stack trace:
+#0 E:\hhy\basic\views\index\list.php(2): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 2, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('list', Array, Object(app\controllers\IndexController))
+#5 E:\hhy\basic\controllers\IndexController.php(26): yii\base\Controller->render('list', Array)
+#6 [internal function]: app\controllers\IndexController->actionList()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:16:35 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53916'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408595.7144
+    'REQUEST_TIME' => 1468408595
+]
+2016-07-13 19:16:35 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 19:16:35 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53916'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408595.7144
+    'REQUEST_TIME' => 1468408595
+]
+2016-07-13 19:21:06 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<form action="#...')
+#5 E:\hhy\basic\controllers\IndexController.php(32): yii\base\Controller->render('form_validation')
+#6 [internal function]: app\controllers\IndexController->actionAdd()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('add', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/add', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:21:06 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/add'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/add'
+    'QUERY_STRING' => 'r=index/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54058'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408866.5109
+    'REQUEST_TIME' => 1468408866
+]
+2016-07-13 19:21:06 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 19:21:06 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/add'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/add'
+    'QUERY_STRING' => 'r=index/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54058'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408866.5109
+    'REQUEST_TIME' => 1468408866
+]
+2016-07-13 19:21:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<form action="#...')
+#5 E:\hhy\basic\controllers\IndexController.php(34): yii\base\Controller->render('form_validation', Array)
+#6 [internal function]: app\controllers\IndexController->actionAdd()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('add', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/add', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 19:21:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/add'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/add'
+    'QUERY_STRING' => 'r=index/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54076'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408899.2858
+    'REQUEST_TIME' => 1468408899
+]
+2016-07-13 19:21:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 19:21:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/add'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/add'
+    'QUERY_STRING' => 'r=index/add'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '54076'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468408899.2858
+    'REQUEST_TIME' => 1468408899
+]
+2016-07-13 20:28:05 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in E:\hhy\basic\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('addinfo', Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/addinfo', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#5 {main}
+2016-07-13 20:28:05 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/addinfo'
+]
+
+$_POST = [
+    'w_name' => ''
+    'w_appid' => ''
+    'w_serveid' => ''
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/addinfo'
+    'QUERY_STRING' => 'r=index/addinfo'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56146'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '27'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468412885.9498
+    'REQUEST_TIME' => 1468412885
+]
+2016-07-13 20:28:06 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#6 {main}
+2016-07-13 20:28:05 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/addinfo'
+]
+
+$_POST = [
+    'w_name' => ''
+    'w_appid' => ''
+    'w_serveid' => ''
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1928'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/addinfo'
+    'QUERY_STRING' => 'r=index/addinfo'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '56146'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '27'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468412885.9498
+    'REQUEST_TIME' => 1468412885
+]
+2016-07-13 21:03:33 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('\r\n<div class="p...')
+#5 E:\hhy\basic\controllers\IndexController.php(54): yii\base\Controller->render('numlist')
+#6 [internal function]: app\controllers\IndexController->actionNumlist()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('numlist', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/numlist', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 21:03:33 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+    '_csrf' => '8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_YotSpPtTeT70sew_UO1CSrDz7cPGLr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1800'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57535'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1; _csrf=8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_YotSpPtTeT70sew_UO1CSrDz7cPGLr%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468415013.6355
+    'REQUEST_TIME' => 1468415013
+]
+2016-07-13 21:03:33 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 21:03:33 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+    '_csrf' => '8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_YotSpPtTeT70sew_UO1CSrDz7cPGLr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1800'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '57535'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1; _csrf=8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_YotSpPtTeT70sew_UO1CSrDz7cPGLr%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/add'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468415013.6355
+    'REQUEST_TIME' => 1468415013
+]
+2016-07-13 21:31:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('')
+#5 E:\hhy\basic\controllers\IndexController.php(56): yii\base\Controller->render('numlist', Array)
+#6 [internal function]: app\controllers\IndexController->actionNumlist()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('numlist', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/numlist', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-13 21:31:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+    '_csrf' => '8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_YotSpPtTeT70sew_UO1CSrDz7cPGLr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1816'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58204'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1; _csrf=8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_YotSpPtTeT70sew_UO1CSrDz7cPGLr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468416699.2699
+    'REQUEST_TIME' => 1468416699
+]
+2016-07-13 21:31:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-13 21:31:39 [127.0.0.1][-][44eaglgc41ad19crh8luoj98d1][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'PHPSESSID' => '44eaglgc41ad19crh8luoj98d1'
+    '_csrf' => '8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"i_YotSpPtTeT70sew_UO1CSrDz7cPGLr\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1816'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '58204'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; PHPSESSID=44eaglgc41ad19crh8luoj98d1; _csrf=8b09c12d49020614f9fce5ec592fd7a8721b22883fd633e87da5a26fa4850964a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22i_YotSpPtTeT70sew_UO1CSrDz7cPGLr%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468416699.2699
+    'REQUEST_TIME' => 1468416699
+]
+2016-07-14 07:45:14 [127.0.0.1][-][7cu667m30cm9vpng8ojhedrce2][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: name' in E:\hhy\basic\controllers\IndexController.php:58
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(58): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'E:\\hhy\\basic\\co...', 58, Array)
+#1 [internal function]: app\controllers\IndexController->actionNumlist()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('numlist', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/numlist', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-14 07:45:14 [127.0.0.1][-][7cu667m30cm9vpng8ojhedrce2][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'light'
+    'PHPSESSID' => '7cu667m30cm9vpng8ojhedrce2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1792'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49889'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=light; PHPSESSID=7cu667m30cm9vpng8ojhedrce2'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468453514.1353
+    'REQUEST_TIME' => 1468453514
+]
+2016-07-14 07:45:14 [127.0.0.1][-][7cu667m30cm9vpng8ojhedrce2][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-14 07:45:14 [127.0.0.1][-][7cu667m30cm9vpng8ojhedrce2][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'light'
+    'PHPSESSID' => '7cu667m30cm9vpng8ojhedrce2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1792'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/numlist'
+    'QUERY_STRING' => 'r=index/numlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '49889'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=light; PHPSESSID=7cu667m30cm9vpng8ojhedrce2'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/list'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468453514.1353
+    'REQUEST_TIME' => 1468453514
+]
+2016-07-14 16:56:34 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/del_id' in E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('del_id', Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/del_id', Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#2 {main}
+2016-07-14 16:56:34 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][info][application] $_GET = [
+    'r' => 'index/del_id'
+    'w_id' => '1'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'default'
+    'PHPSESSID' => 'iur7kpisdqjrunorfvie9l6k65'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1784'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/del_id&w_id=1'
+    'QUERY_STRING' => 'r=index/del_id&w_id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '60968'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=default; PHPSESSID=iur7kpisdqjrunorfvie9l6k65'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/numlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468486594.7525
+    'REQUEST_TIME' => 1468486594
+]
+2016-07-14 17:05:00 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\db\BaseActiveRecord::findAll(), called in E:\hhy\basic\controllers\IndexController.php on line 61 and defined' in E:\hhy\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php:109
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(109): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'E:\\hhy\\basic\\ve...', 109, Array)
+#1 E:\hhy\basic\controllers\IndexController.php(61): yii\db\BaseActiveRecord::findAll()
+#2 [internal function]: app\controllers\IndexController->actionNumlist()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('numlist', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/numlist', Array)
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#9 {main}
+2016-07-14 17:04:59 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'default'
+    'PHPSESSID' => 'iur7kpisdqjrunorfvie9l6k65'
+    '_csrf' => 'c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Fnumlist'
+    'QUERY_STRING' => 'r=index%2Fnumlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61343'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=default; PHPSESSID=iur7kpisdqjrunorfvie9l6k65; _csrf=c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/numlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468487099.8194
+    'REQUEST_TIME' => 1468487099
+]
+2016-07-14 17:05:00 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-14 17:04:59 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][info][application] $_GET = [
+    'r' => 'index/numlist'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'default'
+    'PHPSESSID' => 'iur7kpisdqjrunorfvie9l6k65'
+    '_csrf' => 'c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1856'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index%2Fnumlist'
+    'QUERY_STRING' => 'r=index%2Fnumlist'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61343'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=default; PHPSESSID=iur7kpisdqjrunorfvie9l6k65; _csrf=c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/numlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468487099.8194
+    'REQUEST_TIME' => 1468487099
+]
+2016-07-14 17:15:15 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: name' in E:\hhy\basic\views\layouts\left.php:111
+Stack trace:
+#0 E:\hhy\basic\views\layouts\left.php(111): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'E:\\hhy\\basic\\vi...', 111, Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(325): require('E:\\hhy\\basic\\vi...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('E:\\hhy\\basic\\vi...', Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('E:\\hhy\\basic\\vi...', Array, Object(app\controllers\IndexController))
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('\r\n\r\n<div class=...')
+#5 E:\hhy\basic\controllers\IndexController.php(28): yii\base\Controller->render('list', Array)
+#6 [internal function]: app\controllers\IndexController->actionList()
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#10 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/list', Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#13 {main}
+2016-07-14 17:15:15 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'default'
+    'PHPSESSID' => 'iur7kpisdqjrunorfvie9l6k65'
+    '_csrf' => 'c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61549'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=default; PHPSESSID=iur7kpisdqjrunorfvie9l6k65; _csrf=c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index%2Fnumlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468487715.5446
+    'REQUEST_TIME' => 1468487715
+]
+2016-07-14 17:15:15 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2016-07-14 17:15:15 [127.0.0.1][-][iur7kpisdqjrunorfvie9l6k65][info][application] $_GET = [
+    'r' => 'index/list'
+]
+
+$_COOKIE = [
+    'intro_show' => '1'
+    'style_color' => 'default'
+    'PHPSESSID' => 'iur7kpisdqjrunorfvie9l6k65'
+    '_csrf' => 'c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '1808'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/list'
+    'QUERY_STRING' => 'r=index/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '61549'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'intro_show=1; style_color=default; PHPSESSID=iur7kpisdqjrunorfvie9l6k65; _csrf=c59ed4dca580a09af3209940134e0ba34f04ef72447d0c9d5a2a8bdeb88605b1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226bBj-sd10UhQGvfh8V5RPIdkeyNT1YcG%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index%2Fnumlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468487715.5446
+    'REQUEST_TIME' => 1468487715
+]
+2016-07-14 21:25:04 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index/getone/wid=12".' in E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/getone/wi...', Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#2 {main}
+2016-07-14 21:25:04 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/getone/wid=12'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2052'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/getone/wid=12'
+    'QUERY_STRING' => 'r=index/getone/wid=12'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52372'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/numlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468502704.7704
+    'REQUEST_TIME' => 1468502704
+]
+2016-07-14 21:25:09 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "index/getone/wid=12".' in E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/getone/wi...', Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#2 {main}
+2016-07-14 21:25:09 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/getone/wid=12'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2052'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/getone/wid=12'
+    'QUERY_STRING' => 'r=index/getone/wid=12'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52373'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/numlist'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468502709.4067
+    'REQUEST_TIME' => 1468502709
+]
+2016-07-14 21:55:27 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Creating default object from empty value' in E:\hhy\basic\controllers\IndexController.php:90
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(90): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'E:\\hhy\\basic\\co...', 90, Array)
+#1 [internal function]: app\controllers\IndexController->actionUpdate()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/update', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-14 21:55:26 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/update'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹'
+    'w_serveid' => '弟弟顶顶顶顶顶对对对'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/update'
+    'QUERY_STRING' => 'r=index/update'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53020'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '197'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504526.7803
+    'REQUEST_TIME' => 1468504526
+]
+2016-07-14 21:55:27 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-14 21:55:26 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/update'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹'
+    'w_serveid' => '弟弟顶顶顶顶顶对对对'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/update'
+    'QUERY_STRING' => 'r=index/update'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53020'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '197'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504526.7803
+    'REQUEST_TIME' => 1468504526
+]
+2016-07-14 21:56:14 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Creating default object from empty value' in E:\hhy\basic\controllers\IndexController.php:90
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(90): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'E:\\hhy\\basic\\co...', 90, Array)
+#1 [internal function]: app\controllers\IndexController->actionUpdateok()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('updateok', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/updateok', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-14 21:56:13 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹地方'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53119'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '188'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504573.4789
+    'REQUEST_TIME' => 1468504573
+]
+2016-07-14 21:56:14 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-14 21:56:13 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹地方'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53119'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '188'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504573.4789
+    'REQUEST_TIME' => 1468504573
+]
+2016-07-14 21:57:12 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Creating default object from empty value' in E:\hhy\basic\controllers\IndexController.php:91
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(91): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'E:\\hhy\\basic\\co...', 91, Array)
+#1 [internal function]: app\controllers\IndexController->actionUpdateok()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('updateok', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/updateok', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-14 21:57:11 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹1'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53170'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '171'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504631.6403
+    'REQUEST_TIME' => 1468504631
+]
+2016-07-14 21:57:12 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-14 21:57:11 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹1'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53170'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '171'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504631.6403
+    'REQUEST_TIME' => 1468504631
+]
+2016-07-14 21:57:38 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Creating default object from empty value' in E:\hhy\basic\controllers\IndexController.php:91
+Stack trace:
+#0 E:\hhy\basic\controllers\IndexController.php(91): yii\base\ErrorHandler->handleError(2, 'Creating defaul...', 'E:\\hhy\\basic\\co...', 91, Array)
+#1 [internal function]: app\controllers\IndexController->actionUpdateok()
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('updateok', Array)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('index/updateok', Array)
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#8 {main}
+2016-07-14 21:57:37 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53180'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '170'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504657.5748
+    'REQUEST_TIME' => 1468504657
+]
+2016-07-14 21:57:38 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#7 {main}
+2016-07-14 21:57:37 [127.0.0.1][-][1n9t6il2fgkq0cvi0gbis1mfl4][info][application] $_GET = [
+    'r' => 'index/updateok'
+]
+
+$_POST = [
+    'w_id' => '17'
+    'w_name' => '对对对'
+    'w_appid' => '地对地导弹'
+    'w_serveid' => '弟弟顶顶顶顶顶'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1n9t6il2fgkq0cvi0gbis1mfl4'
+    '_csrf' => '9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'name' => 'admin'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2648'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=index/updateok'
+    'QUERY_STRING' => 'r=index/updateok'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53180'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '170'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=1n9t6il2fgkq0cvi0gbis1mfl4; _csrf=9a420fe088a475810a8c2529d601014d7a1e73e06acf174575389752fc4e6800a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GsFgwau8axRa2Klc5aUl6sFq1o0bKz-T%22%3B%7D'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=index/getone&w_id=17'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468504657.5748
+    'REQUEST_TIME' => 1468504657
+]
+2016-07-15 19:39:30 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception (Database Exception) 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weihhy.wc_session' doesn't exist
+The SQL being executed was: SELECT `data` FROM `wc_session` WHERE `expire`>1468582769 AND `id`='cued2gskqv5sf81jfjh5lk83j6'' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2\db\Schema.php:628
+
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `data` F...')
+#1 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('cued2gskqv5sf81...')
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(558): yii\web\Session->open()
+#7 E:\hhy\basic\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(124): yii\web\Session->get('__flash', Array)
+#8 E:\hhy\basic\vendor\yiisoft\yii2-debug\panels\RequestPanel.php(90): yii\debug\panels\RequestPanel->getFlashes()
+#9 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(55): yii\debug\panels\RequestPanel->save()
+#10 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#11 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#12 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#13 [internal function]: yii\log\Logger->flush(true)
+#14 {main}
+2016-07-15 19:39:29 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'cued2gskqv5sf81jfjh5lk83j6'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2488'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52504'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=cued2gskqv5sf81jfjh5lk83j6'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/install/index.php?act=install_4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468582769.1341
+    'REQUEST_TIME' => 1468582769
+]
+2016-07-15 19:39:35 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weihhy.wc_session' doesn't exist' in E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('<span class="st...')
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(570): yii\web\Session->open()
+#7 E:\hhy\basic\controllers\LoginController.php(36): yii\web\Session->set('<span class="st...', '<span class="st...')
+#8 [internal function]: app\controllers\LoginController->actionIndex()
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weihhy.wc_session' doesn't exist
+The SQL being executed was: SELECT `data` FROM `wc_session` WHERE `expire`>1468582775 AND `id`='cued2gskqv5sf81jfjh5lk83j6'' in E:\hhy\basic\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT `data` F...')
+#1 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(385): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\db\Query.php(256): yii\db\Command->queryScalar()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\web\DbSession.php(147): yii\db\Query->scalar(Object(yii\db\Connection))
+#4 [internal function]: yii\web\DbSession->readSession('<span class="st...')
+#5 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(127): session_start()
+#6 E:\hhy\basic\vendor\yiisoft\yii2\web\Session.php(570): yii\web\Session->open()
+#7 E:\hhy\basic\controllers\LoginController.php(36): yii\web\Session->set('<span class="st...', '<span class="st...')
+#8 [internal function]: app\controllers\LoginController->actionIndex()
+#9 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#10 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#11 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#12 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#13 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'weihhy.wc_session' doesn't exist
+)
+
+2016-07-15 19:39:34 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_POST = [
+    'u_name' => 'admin'
+    'u_pwd' => '123123'
+    'submit' => 'Continue'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'cued2gskqv5sf81jfjh5lk83j6'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2488'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52504'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '41'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=cued2gskqv5sf81jfjh5lk83j6'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468582774.9084
+    'REQUEST_TIME' => 1468582774
+]
+2016-07-15 19:39:36 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 E:\hhy\basic\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 E:\hhy\basic\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 E:\hhy\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#7 {main}
+2016-07-15 19:39:34 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_POST = [
+    'u_name' => 'admin'
+    'u_pwd' => '123123'
+    'submit' => 'Continue'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'cued2gskqv5sf81jfjh5lk83j6'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2488'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52504'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '41'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=cued2gskqv5sf81jfjh5lk83j6'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468582774.9084
+    'REQUEST_TIME' => 1468582774
+]
+2016-07-15 19:42:22 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weihhy.wx_admin' doesn't exist' in E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php:837
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(837): PDOStatement->execute()
+#1 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 E:\hhy\basic\controllers\LoginController.php(33): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\LoginController->actionIndex()
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'weihhy.wx_admin' doesn't exist
+The SQL being executed was: SELECT * FROM `wx_admin` WHERE (`u_name`='admin') AND (`u_pwd`='4297f44b13955235245b2497399d7a93')' in E:\hhy\basic\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 E:\hhy\basic\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 E:\hhy\basic\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#3 E:\hhy\basic\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 E:\hhy\basic\controllers\LoginController.php(33): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\LoginController->actionIndex()
+#6 E:\hhy\basic\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'weihhy.wx_admin' doesn't exist
+)
+
+2016-07-15 19:42:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/index'
+]
+
+$_POST = [
+    'u_name' => 'admin'
+    'u_pwd' => '123123'
+    'submit' => 'Continue'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'cued2gskqv5sf81jfjh5lk83j6'
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2760'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=login/index'
+    'QUERY_STRING' => 'r=login/index'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '52577'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'CONTENT_LENGTH' => '41'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=cued2gskqv5sf81jfjh5lk83j6'
+    'HTTP_REFERER' => 'http://www.hhy.com/basic/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468582941.3669
+    'REQUEST_TIME' => 1468582941
+]
+2016-07-15 20:02:56 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/list' in E:\hhy\basic\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('list', Array)
+#1 E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('login/list', Array)
+#2 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in E:\hhy\basic\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\hhy\basic\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\hhy\basic\web\index.php(13): yii\base\Application->run()
+#2 {main}
+2016-07-15 20:02:56 [127.0.0.1][-][cued2gskqv5sf81jfjh5lk83j6][info][application] $_GET = [
+    'r' => 'login/list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'cued2gskqv5sf81jfjh5lk83j6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;D:\\svn客户端软件\\bin;E:\\p;pstudy\\php55n'
+    'SYSTEMROOT' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpstudy/php55n'
+    '_FCGI_SHUTDOWN_EVENT_' => '3008'
+    'SCRIPT_NAME' => '/basic/web/index.php'
+    'REQUEST_URI' => '/basic/web/index.php?r=login/list'
+    'QUERY_STRING' => 'r=login/list'
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '53101'
+    'SCRIPT_FILENAME' => 'E:/hhy/basic/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/hhy'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/hhy'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'www.hhy.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\Windows'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_COOKIE' => 'PHPSESSID=cued2gskqv5sf81jfjh5lk83j6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_HOST' => 'www.hhy.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1468584176.8766
+    'REQUEST_TIME' => 1468584176
+]
